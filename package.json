@@ -1,0 +1,14 @@
+{
+  "name": "rolldown-getting-started",
+  "version": "1.0.0",
+  "description": "A sample project demonstrating Rolldown — the Rust-based JavaScript bundler.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "rolldown -c",
+    "start": "node dist/bundle.js"
+  },
+  "devDependencies": {
+    "rolldown": "^1.0.0-beta"
+  }
+}
