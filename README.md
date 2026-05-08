@@ -4,7 +4,7 @@ A minimal sample project that demonstrates [Rolldown](https://rolldown.rs/) — 
 
 ## Project layout
 
-```
+```text
 .
 ├── src/
 │   ├── main.js     # Entry point
@@ -16,8 +16,10 @@ A minimal sample project that demonstrates [Rolldown](https://rolldown.rs/) — 
 
 ## Setup
 
+This project uses [pnpm](https://pnpm.io/) as its package manager.
+
 ```bash
-npm install
+pnpm install
 ```
 
 ## Build
@@ -25,24 +27,24 @@ npm install
 Bundle `src/main.js` into `dist/bundle.js` using the config file:
 
 ```bash
-npm run build
+pnpm build
 ```
 
 Or invoke the CLI directly:
 
 ```bash
-./node_modules/.bin/rolldown src/main.js --file dist/bundle.js
+pnpm exec rolldown src/main.js --file dist/bundle.js
 ```
 
 ## Run
 
 ```bash
-npm start
+pnpm start
 ```
 
 Expected output:
 
-```
+```text
 Hello Rolldown!
 2 + 3 = 5
 4 * 5 = 20

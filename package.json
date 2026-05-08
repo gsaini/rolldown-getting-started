@@ -4,6 +4,7 @@
   "description": "A sample project demonstrating Rolldown — the Rust-based JavaScript bundler.",
   "type": "module",
   "private": true,
+  "packageManager": "pnpm@11.0.3",
   "scripts": {
     "build": "rolldown -c",
     "start": "node dist/bundle.js"
